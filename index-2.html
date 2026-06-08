@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+<meta name="application-name" content="Andre Teti">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Andre Teti",
+  "url": "https://andreteti.github.io/andre-portfolio/",
+  "description": "Portfolio resmi Andre Fredli Teti"
+}
+</script>
+
+<title>Andre Teti | Crypto Trader &amp; AI Builder</title>
+<meta name="description" content="Andre Fredli Teti. 19 tahun. Crypto trader. AI builder. Agency founder. Membangun masa depan — satu langkah nekat di satu waktu.">
+<meta name="keywords" content="Andre Fredli Teti, Andre Teti, crypto trader Indonesia, AI agent builder, performance agency, portfolio">
+<meta name="author" content="Andre Fredli Teti">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://andreteti.github.io/andre-portfolio/">
+<link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Andre Teti">
+<meta property="og:title" content="Andre Teti | Crypto Trader &amp; AI Builder">
+<meta property="og:description" content="Andre Fredli Teti. 19 tahun. Crypto trader. AI builder. Agency founder. Membangun masa depan — satu langkah nekat di satu waktu.">
+<meta property="og:url" content="https://andreteti.github.io/andre-portfolio/">
+<meta property="og:locale" content="id_ID">
+<meta property="og:locale:alternate" content="en_US">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@andre7951">
+<meta name="twitter:title" content="Andre Teti | Crypto Trader &amp; AI Builder">
+<meta name="twitter:description" content="Andre Fredli Teti. 19 tahun. Crypto trader. AI builder. Agency founder. Membangun masa depan — satu langkah nekat di satu waktu.">
+
+<link rel="alternate" hreflang="id" href="https://andreteti.github.io/andre-portfolio/">
+<link rel="alternate" hreflang="en" href="https://andreteti.github.io/andre-portfolio/">
+<link rel="alternate" hreflang="x-default" href="https://andreteti.github.io/andre-portfolio/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andre Fredli Teti",
+  "url": "https://andreteti.github.io/andre-portfolio/",
+  "jobTitle": "Crypto Trader, AI Builder, Agency Founder",
+  "description": "19 tahun. Crypto trader, AI agent builder, dan founder performance agency dari Indonesia.",
+  "sameAs": ["https://www.instagram.com/andretetii","https://x.com/andre7951"],
+  "email": "mailto:andreteti15@gmail.com",
+  "nationality": "Indonesian"
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #080808;
+    --surface: #111111;
+    --accent: #E8FF47;
+    --text: #F0EDE6;
+    --muted: #5A5A5A;
+    --border: #1E1E1E;
+  }
+
+  html { scroll-behavior: smooth; overflow-x: hidden; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    width: 100%; max-width: 100vw;
+    position: relative;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* ── GLOBAL GRADIENT ORBS (sections below hero) ── */
+  .gradient-bg {
+    position: fixed; inset: 0;
+    z-index: 0; pointer-events: none; overflow: hidden;
+  }
+  .gradient-orb {
+    position: absolute; border-radius: 50%;
+    filter: blur(120px); opacity: 0.10;
+    animation: orbFloat 14s ease-in-out infinite;
+  }
+  .orb1 { width: 700px; height: 700px; background: var(--accent); top: -200px; left: -200px; animation-duration: 14s; }
+  .orb2 { width: 500px; height: 500px; background: var(--accent); bottom: 10%; right: -150px; animation-delay: -5s; animation-duration: 18s; opacity: 0.06; }
+  .orb3 { width: 400px; height: 400px; background: #c8e600; top: 50%; left: 40%; transform: translate(-50%,-50%); animation-delay: -9s; animation-duration: 22s; opacity: 0.05; }
+
+  @keyframes orbFloat {
+    0%   { transform: translate(0,0) scale(1); }
+    25%  { transform: translate(60px,40px) scale(1.08); }
+    50%  { transform: translate(20px,80px) scale(0.95); }
+    75%  { transform: translate(-40px,30px) scale(1.05); }
+    100% { transform: translate(0,0) scale(1); }
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.04; pointer-events: none; z-index: 2;
+  }
+
+  nav, section, footer, .side-line-wrap { position: relative; z-index: 3; }
+
+  /* ── LEFT SIDE GRADIENT LINE ── */
+  .side-line-wrap {
+    position: fixed; left: 16px;
+    top: 0; bottom: 0; width: 2px;
+    z-index: 50; pointer-events: none;
+  }
+  .side-line {
+    width: 2px; height: 100%;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(232,255,71,0) 5%,
+      rgba(232,255,71,0.5) 30%,
+      rgba(232,255,71,0.8) 50%,
+      rgba(232,255,71,0.5) 70%,
+      rgba(232,255,71,0) 95%,
+      transparent 100%
+    );
+    border-radius: 2px;
+    animation: linePulse 4s ease-in-out infinite;
+  }
+  @keyframes linePulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
+
+  /* ── SCROLL REVEAL ── */
+  .reveal, .reveal-left, .reveal-right, .reveal-scale {
+    will-change: opacity, transform;
+    backface-visibility: hidden;
+  }
+  .reveal       { opacity: 0; transform: translateY(28px); transition: opacity 0.9s cubic-bezier(0.25,0.46,0.45,0.94), transform 0.9s cubic-bezier(0.25,0.46,0.45,0.94); }
+  .reveal-left  { opacity: 0; transform: translateX(-28px); transition: opacity 0.9s cubic-bezier(0.25,0.46,0.45,0.94), transform 0.9s cubic-bezier(0.25,0.46,0.45,0.94); }
+  .reveal-right { opacity: 0; transform: translateX(28px);  transition: opacity 0.9s cubic-bezier(0.25,0.46,0.45,0.94), transform 0.9s cubic-bezier(0.25,0.46,0.45,0.94); }
+  .reveal-scale { opacity: 0; transform: scale(0.96);       transition: opacity 1s cubic-bezier(0.25,0.46,0.45,0.94), transform 1s cubic-bezier(0.25,0.46,0.45,0.94); }
+  .reveal.visible       { opacity: 1; transform: translateY(0); }
+  .reveal-left.visible  { opacity: 1; transform: translateX(0); }
+  .reveal-right.visible { opacity: 1; transform: translateX(0); }
+  .reveal-scale.visible { opacity: 1; transform: scale(1); }
+  .reveal.hidden        { opacity: 0; transform: translateY(28px); }
+  .reveal-left.hidden   { opacity: 0; transform: translateX(-28px); }
+  .reveal-right.hidden  { opacity: 0; transform: translateX(28px); }
+  .reveal-scale.hidden  { opacity: 0; transform: scale(0.96); }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 48px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s, background 0.3s;
+    width: 100%;
+  }
+  nav.scrolled { background: rgba(8,8,8,0.88); backdrop-filter: blur(24px); border-color: var(--border); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 3px; color: var(--accent); flex-shrink: 0; }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a { color: var(--muted); text-decoration: none; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; transition: color 0.2s; font-weight: 500; white-space: nowrap; }
+  .nav-links a:hover { color: var(--text); }
+
+  /* ══════════════════════════════════════════
+     HERO — Yellow Aurora Canvas
+     Canvas is absolutely positioned, strictly
+     clipped inside #hero via overflow:hidden.
+     Nothing bleeds into the next section.
+  ══════════════════════════════════════════ */
+  #hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 0 60px 80px;
+    position: relative;
+    /* CRITICAL: clips aurora canvas to hero bounds */
+    overflow: hidden;
+    width: 100%;
+    background: var(--bg);
+  }
+
+  /* Aurora canvas — z-index 0, behind all hero content */
+  #aurora-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    display: block;
+  }
+
+  /* All hero text content above canvas */
+  .hero-tag, .hero-name, .hero-sub {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-tag {
+    display: inline-flex; align-items: center;
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 8px 16px; border-radius: 100px;
+    font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 28px; width: fit-content;
+    animation: fadeInUp 1s 0.3s both;
+    white-space: nowrap;
+    /* subtle glass feel against aurora */
+    backdrop-filter: blur(6px);
+    background: rgba(8,8,8,0.3);
+  }
+  .hero-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(64px, 10vw, 140px);
+    line-height: 0.92; letter-spacing: -1px;
+    animation: fadeInUp 1s 0.5s both;
+    /* subtle text shadow to lift over aurora */
+    text-shadow: 0 0 60px rgba(0,0,0,0.8);
+  }
+  .hero-name .accent { color: var(--accent); }
+  .hero-sub {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    margin-top: 36px; animation: fadeInUp 1s 0.7s both;
+    gap: 20px; flex-wrap: wrap;
+  }
+  .hero-desc { max-width: 400px; color: var(--muted); font-size: 14px; line-height: 1.75; }
+  .hero-line-only { display: flex; align-items: center; flex-shrink: 0; }
+  .scroll-line { width: 80px; height: 1px; background: var(--muted); opacity: 0.4; }
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ── SECTIONS ── */
+  section { padding: 100px 60px; width: 100%; max-width: 100%; overflow: hidden; }
+  .section-label { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 60px; font-weight: 500; font-family: 'JetBrains Mono', monospace; }
+
+  /* ── ABOUT ── */
+  #about { border-top: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+  .about-heading { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 5vw, 76px); line-height: 1; letter-spacing: 1px; margin-bottom: 40px; }
+  .about-text { color: var(--muted); font-size: 15px; line-height: 1.8; margin-bottom: 20px; }
+  .about-text strong { color: var(--text); font-weight: 400; }
+  .about-right { padding-top: 60px; }
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-bottom: 60px; }
+  .stat-item { background: rgba(17,17,17,0.7); padding: 28px 24px; border: 1px solid var(--border); backdrop-filter: blur(10px); min-width: 0; }
+  .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 3.5vw, 52px); color: var(--accent); line-height: 1; margin-bottom: 8px; }
+  .stat-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); word-break: break-word; }
+
+  /* ── VENTURES ── */
+  #ventures { border-top: 1px solid var(--border); }
+  .ventures-heading { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 5vw, 76px); margin-bottom: 60px; line-height: 1; }
+  .venture-item { display: grid; grid-template-columns: 50px 1fr auto; align-items: start; gap: 24px; padding: 40px 0; border-bottom: 1px solid var(--border); position: relative; min-width: 0; }
+  .venture-item::before { content: ''; position: absolute; left: -60px; right: -60px; top: 0; bottom: 0; background: rgba(17,17,17,0.6); backdrop-filter: blur(6px); opacity: 0; transition: opacity 0.3s; z-index: -1; }
+  .venture-item:hover::before { opacity: 1; }
+  .venture-num { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); padding-top: 6px; flex-shrink: 0; }
+  .venture-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(24px, 3vw, 48px); line-height: 1; margin-bottom: 12px; letter-spacing: 1px; word-break: break-word; }
+  .venture-desc { color: var(--muted); font-size: 14px; line-height: 1.7; max-width: 100%; word-break: break-word; }
+  .venture-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); border: 1px solid rgba(232,255,71,0.3); padding: 6px 12px; white-space: nowrap; font-family: 'JetBrains Mono', monospace; flex-shrink: 0; }
+
+  /* ── SKILLS ── */
+  #skills { border-top: 1px solid var(--border); }
+  .skills-heading { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 5vw, 76px); margin-bottom: 60px; line-height: 1; }
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; width: 100%; min-width: 0; }
+  .skill-card { background: rgba(17,17,17,0.65); border: 1px solid var(--border); padding: 32px 28px; backdrop-filter: blur(10px); transition: border-color 0.3s, transform 0.3s; min-width: 0; overflow: hidden; }
+  .skill-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+  .skill-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(18px, 1.8vw, 26px); letter-spacing: 1px; margin-bottom: 16px; word-break: break-word; }
+  .skill-items { list-style: none; }
+  .skill-items li { font-size: 13px; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; word-break: break-word; overflow-wrap: break-word; min-width: 0; }
+  .skill-items li::before { content: '—'; color: var(--accent); font-size: 10px; flex-shrink: 0; }
+
+  /* ── MINDSET ── */
+  #mindset { border-top: 1px solid var(--border); background: rgba(17,17,17,0.5); backdrop-filter: blur(20px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 140px 60px; width: 100%; }
+  .mindset-quote { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 5vw, 88px); line-height: 1.1; max-width: 860px; width: 100%; margin: 0 auto 48px; letter-spacing: 1px; text-align: center; word-break: break-word; }
+  .mindset-quote .hl { color: var(--accent); }
+  .mindset-source { font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); font-family: 'JetBrains Mono', monospace; text-align: center; margin: 0 auto; }
+
+  /* ── CONTACT ── */
+  #contact { border-top: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .contact-heading { font-family: 'Bebas Neue', sans-serif; font-size: clamp(48px, 6vw, 110px); line-height: 0.9; letter-spacing: 1px; }
+  .contact-heading .block { display: block; }
+  .contact-heading .accent { color: var(--accent); }
+  .contact-links { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .contact-link { display: flex; justify-content: space-between; align-items: center; padding: 24px 28px; background: rgba(17,17,17,0.65); backdrop-filter: blur(10px); border: 1px solid var(--border); text-decoration: none; color: var(--text); transition: border-color 0.3s, background 0.3s; min-width: 0; }
+  .contact-link:hover { border-color: var(--accent); background: rgba(232,255,71,0.04); }
+  .contact-link-left { display: flex; align-items: center; gap: 16px; min-width: 0; overflow: hidden; }
+  .contact-icon { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .contact-icon svg { width: 22px; height: 22px; fill: var(--text); transition: fill 0.3s; }
+  .contact-link:hover .contact-icon svg { fill: var(--accent); }
+  .contact-link-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 2px; white-space: nowrap; }
+  .contact-handle { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); letter-spacing: 1px; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+  .contact-link-arrow { font-size: 18px; color: var(--muted); transition: color 0.3s, transform 0.3s; flex-shrink: 0; margin-left: 12px; }
+  .contact-link:hover .contact-link-arrow { color: var(--accent); transform: translate(4px,-4px); }
+
+  /* ── FOOTER ── */
+  footer { border-top: 1px solid var(--border); padding: 28px 60px; display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap; text-align: center; width: 100%; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; letter-spacing: 3px; font-size: 18px; color: var(--muted); }
+  .footer-copy { font-size: 12px; color: var(--muted); font-family: 'JetBrains Mono', monospace; text-align: center; }
+
+  .d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}.d5{transition-delay:.4s}
+
+  /* ── SMALL DESKTOP 1366×768 ── */
+  @media (max-width: 1440px) {
+    section { padding: 88px 48px; }
+    #hero { padding: 0 48px 72px; }
+    #mindset { padding: 120px 48px; }
+    footer { padding: 28px 48px; }
+  }
+  @media (max-width: 1280px) {
+    section { padding: 80px 44px; }
+    #hero { padding: 0 44px 64px; }
+    .hero-name { font-size: clamp(60px, 9.5vw, 120px); }
+  }
+
+  /* ── TABLET ── */
+  @media (max-width: 1024px) {
+    nav { padding: 18px 32px; }
+    section { padding: 80px 32px; }
+    #hero { padding: 0 32px 60px; }
+    #mindset { padding: 100px 32px; }
+    footer { padding: 24px 32px; }
+    #about { grid-template-columns: 1fr; gap: 48px; }
+    .about-right { padding-top: 0; }
+    #contact { grid-template-columns: 1fr; gap: 48px; }
+    .skills-grid { grid-template-columns: repeat(2, 1fr); }
+    .venture-item { grid-template-columns: 40px 1fr; }
+    .venture-tag { display: none; }
+    .venture-item::before { left: -32px; right: -32px; }
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 768px) {
+    nav { padding: 16px 20px; }
+    .nav-links { display: none; }
+    section { padding: 72px 20px; }
+    #hero { padding: 0 20px 56px; }
+    #mindset { padding: 80px 20px; }
+    footer { padding: 24px 20px; flex-direction: column; gap: 10px; }
+    .hero-tag { font-size: 10px; letter-spacing: 1px; padding: 7px 14px; }
+    .hero-name { font-size: clamp(48px, 13vw, 80px); letter-spacing: -1px; }
+    .hero-sub { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .hero-desc { font-size: 14px; max-width: 100%; }
+    .scroll-line { width: 48px; }
+    #about { grid-template-columns: 1fr; gap: 40px; }
+    .about-right { padding-top: 0; }
+    .stat-grid { grid-template-columns: 1fr 1fr; }
+    .stat-item { padding: 20px 16px; }
+    .stat-num { font-size: clamp(32px, 8vw, 44px); }
+    .venture-item { grid-template-columns: 36px 1fr; gap: 16px; padding: 28px 0; }
+    .venture-tag { display: none; }
+    .venture-name { font-size: clamp(22px, 6vw, 32px); }
+    .venture-item::before { display: none; }
+    .skills-grid { grid-template-columns: 1fr; gap: 2px; }
+    .skill-card { padding: 28px 24px; }
+    .skill-name { font-size: 22px; }
+    .mindset-quote { font-size: clamp(26px, 7vw, 48px); margin-bottom: 28px; }
+    #contact { grid-template-columns: 1fr; gap: 40px; }
+    .contact-heading { font-size: clamp(44px, 12vw, 80px); }
+    .contact-link { padding: 20px 18px; }
+    .contact-link-name { font-size: 20px; }
+    .footer-copy { font-size: 11px; }
+    .side-line-wrap { left: 8px; }
+  }
+
+  /* ── SMALL MOBILE ── */
+  @media (max-width: 400px) {
+    .hero-name { font-size: clamp(40px, 13vw, 58px); }
+    .about-heading, .ventures-heading, .skills-heading { font-size: clamp(34px, 10vw, 50px); }
+    .contact-heading { font-size: clamp(36px, 12vw, 58px); }
+  }
+</style>
+</head>
+<body>
+
+<!-- Global gradient orbs for sections below hero -->
+<div class="gradient-bg" aria-hidden="true">
+  <div class="gradient-orb orb1"></div>
+  <div class="gradient-orb orb2"></div>
+  <div class="gradient-orb orb3"></div>
+</div>
+
+<div class="side-line-wrap" aria-hidden="true"><div class="side-line"></div></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo">AFT</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#ventures">Ventures</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO — Aurora canvas inside, strictly clipped -->
+<section id="hero">
+  <!-- Yellow Aurora Canvas — z-index 0, clipped by #hero overflow:hidden -->
+  <canvas id="aurora-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-tag" translate="no">Available for collaboration</div>
+  <h1 class="hero-name">
+    Andre<br>Fredli<br><span class="accent">Teti</span>
+  </h1>
+  <div class="hero-sub">
+    <p class="hero-desc">
+      19 tahun. Crypto trader. AI builder. Agency founder.<br>
+      Membangun masa depan — satu langkah nekat di satu waktu.
+    </p>
+    <div class="hero-line-only" aria-hidden="true"><div class="scroll-line"></div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left">
+    <p class="section-label reveal">// 001 — About</p>
+    <h2 class="about-heading reveal d1">Tentang<br>Saya.</h2>
+    <p class="about-text reveal d2">
+      Saya <strong>Andre Fredli Teti</strong>, baru lulus SMA, tapi pikiran saya sudah jauh ke depan. Di usia 19 tahun, saya tidak menunggu — saya membangun.
+    </p>
+    <p class="about-text reveal d3">
+      Perjalanan saya dimulai dari ketertarikan mendalam di <strong>industri crypto</strong> — belajar chart, market structure, on-chain data, sampai psychology of trading. Sekarang saya combine itu semua dengan <strong>AI dan automation</strong> untuk membangun bisnis yang scalable.
+    </p>
+    <p class="about-text reveal d4">
+      Saya percaya bahwa generasi muda yang berani ambil risiko terkalkulasi, belajar keras, dan tak kenal menyerah — <strong>itulah yang mengubah dunia.</strong>
+    </p>
+  </div>
+  <div class="about-right">
+    <div class="stat-grid">
+      <div class="stat-item reveal-scale d1"><div class="stat-num">19</div><div class="stat-label">Tahun Umur</div></div>
+      <div class="stat-item reveal-scale d2"><div class="stat-num">2+</div><div class="stat-label">Tahun Belajar Crypto</div></div>
+      <div class="stat-item reveal-scale d3"><div class="stat-num">∞</div><div class="stat-label">Ambisi</div></div>
+      <div class="stat-item reveal-scale d4"><div class="stat-num">0</div><div class="stat-label">Alasan Berhenti</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VENTURES -->
+<section id="ventures">
+  <p class="section-label reveal">// 002 — Ventures</p>
+  <h2 class="ventures-heading reveal d1">Yang Sedang<br>Saya Bangun.</h2>
+  <div class="venture-list">
+    <div class="venture-item reveal">
+      <span class="venture-num">01</span>
+      <div>
+        <div class="venture-name">Crypto Trading</div>
+        <p class="venture-desc">Mendalami pasar crypto — technical analysis, market structure, moving average divergence, dan risk management ala trader profesional. Terinspirasi dari Takashi Kotegawa & BNF.</p>
+      </div>
+      <span class="venture-tag">Active</span>
+    </div>
+    <div class="venture-item reveal d1">
+      <span class="venture-num">02</span>
+      <div>
+        <div class="venture-name">Performance Agency</div>
+        <p class="venture-desc">Membangun agency yang berfokus pada performance marketing — hasil yang terukur, ROI yang jelas. Bukan sekadar agency biasa, tapi mitra growth yang sesungguhnya.</p>
+      </div>
+      <span class="venture-tag">Building</span>
+    </div>
+    <div class="venture-item reveal d2">
+      <span class="venture-num">03</span>
+      <div>
+        <div class="venture-name">AI Agents</div>
+        <p class="venture-desc">Membangun AI agent yang mengotomatisasi proses bisnis — dari lead generation, customer service, sampai workflow kompleks. AI bukan tools, AI adalah tim saya.</p>
+      </div>
+      <span class="venture-tag">Building</span>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label reveal">// 003 — Arsenal</p>
+  <h2 class="skills-heading reveal d1">Senjata<br>Saya.</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal d1">
+      <div class="skill-name">Trading & Markets</div>
+      <ul class="skill-items">
+        <li>Technical Analysis</li>
+        <li>Market Structure</li>
+        <li>Risk Management</li>
+        <li>On-Chain Analysis</li>
+        <li>Position Sizing</li>
+      </ul>
+    </div>
+    <div class="skill-card reveal d2">
+      <div class="skill-name">AI & Automation</div>
+      <ul class="skill-items">
+        <li>AI Agent Building</li>
+        <li>Prompt Engineering</li>
+        <li>Workflow Automation</li>
+        <li>LLM Integration</li>
+        <li>No-Code / Low-Code</li>
+      </ul>
+    </div>
+    <div class="skill-card reveal d3">
+      <div class="skill-name">Business & Growth</div>
+      <ul class="skill-items">
+        <li>Performance Marketing</li>
+        <li>Client Acquisition</li>
+        <li>Strategic Thinking</li>
+        <li>Agency Management</li>
+        <li>Digital Monetization</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MINDSET -->
+<section id="mindset">
+  <p class="section-label reveal" style="text-align:center;">// 004 — Mindset</p>
+  <div class="mindset-quote reveal d1">
+    "Risiko terbesar adalah <span class="hl">tidak mengambil</span> risiko apapun."
+  </div>
+  <p class="mindset-source reveal d2">— Prinsip hidup Andre Fredli Teti</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal-left">
+    <p class="section-label">// 005 — Contact</p>
+    <h2 class="contact-heading">
+      <span class="block">Mari</span>
+      <span class="block">Buat</span>
+      <span class="block accent">Sesuatu.</span>
+    </h2>
+  </div>
+  <div class="contact-links reveal-right d2">
+
+    <a href="mailto:andreteti15@gmail.com" class="contact-link">
+      <div class="contact-link-left">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </div>
+        <div style="min-width:0;overflow:hidden;">
+          <div class="contact-link-name">Email</div>
+          <div class="contact-handle" translate="no">andreteti15@gmail.com</div>
+        </div>
+      </div>
+      <span class="contact-link-arrow">↗</span>
+    </a>
+
+    <a href="https://www.instagram.com/andretetii?igsh=MWtreGl2dDUyOTg3Zw==" target="_blank" rel="noopener" class="contact-link">
+      <div class="contact-link-left">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <div style="min-width:0;overflow:hidden;">
+          <div class="contact-link-name">Instagram</div>
+          <div class="contact-handle" translate="no">@andretetii</div>
+        </div>
+      </div>
+      <span class="contact-link-arrow">↗</span>
+    </a>
+
+    <a href="https://x.com/andre7951" target="_blank" rel="noopener" class="contact-link">
+      <div class="contact-link-left">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.629L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/>
+          </svg>
+        </div>
+        <div style="min-width:0;overflow:hidden;">
+          <div class="contact-link-name">X / Twitter</div>
+          <div class="contact-handle" translate="no">@andre7951</div>
+        </div>
+      </div>
+      <span class="contact-link-arrow">↗</span>
+    </a>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">AFT</div>
+  <div class="footer-copy">©2026 Andre Fredli Teti. All Rights Reserved.</div>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════════════
+   YELLOW AURORA CANVAS
+   - 4 soft radial blobs that drift independently
+   - Strictly rendered inside #hero canvas element
+   - overflow:hidden on #hero clips everything to hero bounds
+   - requestAnimationFrame with visibility check → pauses when
+     tab is hidden → zero battery waste
+   - Designed for 60fps on mid-range mobile
+══════════════════════════════════════════════════════ */
+(function() {
+  const canvas = document.getElementById('aurora-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  // Blob config — slow, elegant, premium
+  const blobs = [
+    { x: 0.15, y: 0.25, r: 0.55, speed: 0.00018, phase: 0,    ox: 0.12, oy: 0.10, alpha: 0.18, color: '232,255,71' },
+    { x: 0.75, y: 0.55, r: 0.45, speed: 0.00013, phase: 2.1,  ox: 0.10, oy: 0.14, alpha: 0.12, color: '200,230,30' },
+    { x: 0.45, y: 0.80, r: 0.40, speed: 0.00022, phase: 4.3,  ox: 0.08, oy: 0.09, alpha: 0.09, color: '232,255,71' },
+    { x: 0.85, y: 0.15, r: 0.35, speed: 0.00016, phase: 1.2,  ox: 0.07, oy: 0.11, alpha: 0.08, color: '180,220,20' },
+  ];
+
+  let W = 0, H = 0, raf = null, lastTime = 0, t = 0;
+
+  function resize() {
+    const hero = document.getElementById('hero');
+    W = canvas.width  = hero.offsetWidth;
+    H = canvas.height = hero.offsetHeight;
+  }
+
+  function drawBlob(blob, time) {
+    const cx = (blob.x + Math.sin(time * blob.speed + blob.phase) * blob.ox) * W;
+    const cy = (blob.y + Math.cos(time * blob.speed * 0.7 + blob.phase) * blob.oy) * H;
+    const radius = blob.r * Math.min(W, H);
+
+    const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
+    grad.addColorStop(0,   `rgba(${blob.color}, ${blob.alpha})`);
+    grad.addColorStop(0.5, `rgba(${blob.color}, ${blob.alpha * 0.4})`);
+    grad.addColorStop(1,   `rgba(${blob.color}, 0)`);
+
+    ctx.beginPath();
+    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+    ctx.fillStyle = grad;
+    ctx.fill();
+  }
+
+  function draw(now) {
+    if (!lastTime) lastTime = now;
+    t += (now - lastTime);
+    lastTime = now;
+
+    ctx.clearRect(0, 0, W, H);
+
+    // Dark base so aurora sits on near-black
+    ctx.fillStyle = '#080808';
+    ctx.fillRect(0, 0, W, H);
+
+    // Draw blobs with additive-like feel using globalCompositeOperation
+    ctx.globalCompositeOperation = 'source-over';
+    blobs.forEach(b => drawBlob(b, t));
+
+    // Subtle vignette — darkens edges for premium look
+    const vig = ctx.createRadialGradient(W/2, H/2, H*0.2, W/2, H/2, H*0.85);
+    vig.addColorStop(0, 'rgba(0,0,0,0)');
+    vig.addColorStop(1, 'rgba(0,0,0,0.55)');
+    ctx.fillStyle = vig;
+    ctx.fillRect(0, 0, W, H);
+
+    raf = requestAnimationFrame(draw);
+  }
+
+  // Pause when tab not visible — saves battery on mobile
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      if (raf) { cancelAnimationFrame(raf); raf = null; }
+    } else {
+      lastTime = 0;
+      raf = requestAnimationFrame(draw);
+    }
+  });
+
+  // Debounced resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(resize, 120);
+  }, { passive: true });
+
+  resize();
+  raf = requestAnimationFrame(draw);
+})();
+
+/* ══════════════════════════════════════
+   NAV + SCROLL REVEAL + PARALLAX
+══════════════════════════════════════ */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 50);
+}, { passive: true });
+
+const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    requestAnimationFrame(() => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        entry.target.classList.remove('hidden');
+      } else {
+        entry.target.classList.remove('visible');
+        entry.target.classList.add('hidden');
+      }
+    });
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+revealEls.forEach(el => revealObserver.observe(el));
+
+// Global orbs mouse follow
+document.addEventListener('mousemove', (e) => {
+  const x = (e.clientX / window.innerWidth  - 0.5) * 40;
+  const y = (e.clientY / window.innerHeight - 0.5) * 40;
+  const o1 = document.querySelector('.orb1');
+  const o2 = document.querySelector('.orb2');
+  if (o1) o1.style.transform = `translate(${x * 0.6}px, ${y * 0.6}px)`;
+  if (o2) o2.style.transform = `translate(${-x * 0.4}px, ${-y * 0.4}px)`;
+}, { passive: true });
+</script>
+</body>
+</html>
